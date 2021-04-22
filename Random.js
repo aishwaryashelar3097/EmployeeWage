@@ -1,3 +1,6 @@
-let random=Math.random()
- if ( employee==present)
-  console.log(random);
+module.exports={randIntWithZero}
+function randIntWithZero() {
+    return Math.floor((Math.random()*10));
+}
+//console.log(randIntWithZero());
+
